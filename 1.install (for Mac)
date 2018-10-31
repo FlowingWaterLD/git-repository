@@ -1,0 +1,32 @@
+整个步骤：安装pip--requests库（目前公认的爬取网页最简单的第三方库，python的第三方库，简单简洁）
+
+
+
+
+具体
+pip
+首先，先检查一下有没有pip的命令
+（图片来自https://img-blog.csdn.net/20180719100145341?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3poYW9tZW5nc3p1/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70）
+出现command not found,这时需要下载安装pip
+mac里面python自带easy_install，在终端里面执行sudo easy_install pip。运行完可以用pip help测试一下是否安装成功。
+
+
+requests
+Mac环境自带了Python2，（有时候要使用Python3，可以直接下载Python3的版本，然后在Mac上安装就可以了）
+Python2和Python3环境下安装requests略有不同，主要是安装命令上略有差异。
+python2的：sudo easy_install requests或者sudo pip install requests
+python3的：pip3 install requests
+输入指令，等待后出现Processing dependencies for requests
+                 Finished processing dependencies for requests
+                 即安装成功。
+
+
+
+
+
+
+
+
+
+参考文档https://blog.csdn.net/zhaomengszu/article/details/81110267
+       https://blog.csdn.net/dongdong9223/article/details/81517182
